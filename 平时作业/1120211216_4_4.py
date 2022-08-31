@@ -1,0 +1,14 @@
+num=int(input("输入四位整数："))
+g=num%10
+s=num//10%10
+b=num//100%10
+q=num//1000%10
+g=(g+5)%10
+s=(s+5)%10
+b=(b+5)%10
+q=(q+5)%10
+single=b
+ten=q
+hun=g
+thou=s
+print("密码为:%d%d%d%d"%(thou,hun,ten,single))
